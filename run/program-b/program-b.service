@@ -1,0 +1,11 @@
+[Unit]
+Description=program-b test service
+
+[Service]
+Type=simple
+ExecStart=/home/minexo79/run/program-b/program-b
+User=minexo79
+Restart=always
+
+[Install]
+WantedBy=multi-user.target

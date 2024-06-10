@@ -1,0 +1,11 @@
+[Unit]
+Description=program-a test service
+
+[Service]
+Type=simple
+ExecStart=/home/minexo79/run/program-a/program-a
+User=minexo79
+Restart=always
+
+[Install]
+WantedBy=multi-user.target
